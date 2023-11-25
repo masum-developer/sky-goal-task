@@ -3,7 +3,7 @@
 const Button = ({children}) => {
     return (
         
-            <button className="bg-orange-400 px-3 py-15px rounded-2xl">{children}</button>
+            <button className="bg-orange-400 px-10 py-10px h-10 rounded-2xl">{children}</button>
             
     );
 };

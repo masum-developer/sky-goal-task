@@ -20,7 +20,8 @@ const Destination = () => {
   const [setSwiperRef] = useState(null);
 
   return (
-    <>
+    <div className="w-[90%] mx-auto">
+    <h2 className="text-2xl lg:text-3xl text-center lg:text-left">Our Destinations</h2>
       <Swiper
         onSwiper={setSwiperRef}
         slidesPerView={4}
@@ -33,6 +34,7 @@ const Destination = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
+        <div className="flex flex-col lg:flex-row">
         <SwiperSlide>
           <div className="card card-compact w-[320px] bg-base-100 shadow-xl">
             <figure>
@@ -52,7 +54,7 @@ const Destination = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="card card-compact w-[320px] bg-base-100 shadow-xl">
+          <div className="card card-compact  w-[320px] bg-base-100 shadow-xl">
             <figure>
               <img
                 src={image2}
@@ -75,7 +77,7 @@ const Destination = () => {
               <img
                 src={image3}
                 alt="image3"
-                className="w-full"
+                
               />
             </figure>
             <div className="card-body">
@@ -125,8 +127,9 @@ const Destination = () => {
             </div>
           </div>
         </SwiperSlide>
+        </div>
       </Swiper>
-    </>
+    </div>
   );
 };
 

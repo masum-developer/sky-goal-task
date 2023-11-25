@@ -4,20 +4,20 @@ import mask from "../../../assets/discountImage/mask.png";
 import Button from "../../../components/Button/Button";
 const Discount = () => {
   return (
-    <div className="flex justify-around mt-10">
+    <div className="flex flex-col lg:flex-row justify-around mt-10 px-2 lg:px-0 ms-10 lg:ms-0">
       <div className="flex-col items-center justify-items-center py-10">
         <img src={ellipse1} alt="" />
         <div className="flex">
-          <div>
+          <div className="">
             <h5>Get 20% off for student</h5>
-            <h3 className="text-3xl font-extrabold">Student discounts available.</h3>
-            <h3 className="text-3xl font-thin">Get ready for some fun in the sun!</h3>
+            <h3 className="text-xl lg:text-3xl font-medium lg:font-extrabold">Student discounts <br className="block lg:hidden" /> available.</h3>
+            <h3 className="text-xl lg:text-3xl font-thin">Get ready for some <br className="block lg:hidden" /> fun in the sun!</h3>
           </div>
           <div>
             <img src={ellipse2} alt="" />
           </div>
         </div>
-        <ul className="ml-7 mt-7 mb-10">
+        <ul className="ms-7 mt-7 mb-10">
           <li className="list-disc">Lorem ipsum dolor sit amet</li>
           <li className="list-disc">Massa quis natoque sit quam</li>
           <li className="list-disc">Eros non pellentesque elit </li>
@@ -29,7 +29,7 @@ const Discount = () => {
         </div>
       </div>
       <div>
-        <img className="w-[457px] h-[638px]" src={mask} alt="mask" />
+        <img className="w-[200px] h-[300px] lg:w-[457px] lg:h-[638px]" src={mask} alt="mask" />
       </div>
     </div>
   );

@@ -1,13 +1,13 @@
 import girl from "../../../assets/bookNow/girl.png";
 const BookNow = () => {
   return (
-    <div className="flex justify-around">
-      <img className="w-[500px] h-[680px]" src={girl} alt="" />
+    <div className="flex flex-col lg:flex-row justify-around px-2 lg:px-0 ms-10 lg:ms-0">
+      <img className=" w-[200px] h-[300px] lg:w-[500px] lg:h-[680px]" src={girl} alt="" />
 
       <div className="card w-[400px] h-[550px] bg-base-100 shadow-xl py-10 mt-32">
         <div className="card-body">
-          <h2 className="card-title">Book now</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <h2 className="card-title ms-0 lg:ms-10">Book now</h2>
+          <p className="ms-0 lg:ms-10">Lorem ipsum dolor sit amet, <br className="block lg:hidden" /> consectetur adipiscing elit</p>
           <form className="card-body">
             <div className="form-control">
               <label className="label">
