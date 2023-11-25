@@ -6,7 +6,7 @@ import round from "../../../assets/bannerImage/round.png";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-8 bg-[#F8F1D3] py-2 lg:py-8">
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-8 bg-[#fcf8e9] py-2 lg:py-8">
       <div className="flex flex-col lg:flex-row">
       <div>
         <div><img src={ellipsebig} alt="" /></div>

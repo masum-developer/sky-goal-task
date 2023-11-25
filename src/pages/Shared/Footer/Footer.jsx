@@ -7,7 +7,7 @@ const Footer = () => {
       <h2 className="text-3xl">on tropical getaways!</h2>
       <p className="mt-8">Let’s embody your beautiful ideas together, simplify the</p>
       <p>way you visualize your next big things.</p>
-      <div className="grid grid-cols-1 lg:grid-cols-9 gap-2 lg:gap-8 mt-8">
+      <div className="grid grid-cols-1 lg:grid-cols-9 gap-2 lg:gap-1 justify-center mt-8">
         <div>
           <Link to="/">Privacy Policy</Link>
         </div>

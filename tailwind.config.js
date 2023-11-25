@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        custom: {
+          '100': '#F8F1D3',
+          // ... Add more percentage-based shades as needed
+        },
+      },
+    },
   },
   plugins: [require("daisyui")],
 }

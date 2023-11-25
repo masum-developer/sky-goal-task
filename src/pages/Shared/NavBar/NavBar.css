@@ -1,5 +1,5 @@
 .header {
-    height: 30px;
+    height: 60px;
     background-color: white;
     display: flex;
     
@@ -21,11 +21,9 @@ nav.header a{
     
     margin-left: 30px;
 }
-nav.header a:hover{
-    color: orange;
-}
+
 .bg-orange{
-    background-color: orange;
+    background-color: #F27A44;
     padding: 3px 15px;
     border-radius: 10px;
 }
