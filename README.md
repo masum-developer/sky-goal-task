@@ -1,7 +1,7 @@
 #Sky Goal Project
 
 ## Live Link
-client link-> 
+client link-> https://quiet-lokum-7b15b7.netlify.app
 
 
 ## Features
